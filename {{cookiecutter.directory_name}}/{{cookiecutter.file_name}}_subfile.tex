@@ -2,7 +2,7 @@
 
 \begin{document}
 
-\input{ {{-cookiecutter.directory_name-}}/{{-cookiecutter.file_name-}}.tex}
+\input{ {{-cookiecutter.directory_name | trim("/")-}}/{{-cookiecutter.file_name-}}.tex}
 \{{-cookiecutter.macro_name-}}[{{-cookiecutter.macro_subname-}}]
   
 \end{document}
