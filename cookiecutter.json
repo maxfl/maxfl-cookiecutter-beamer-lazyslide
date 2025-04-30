@@ -1,8 +1,8 @@
 {
     "directory_name": "lazy_slide_location",
-    "file_name": "lazy_slide",
+    "file_name": "{{-cookiecutter.directory_name.strip('/').split('/')[-1]-}}",
     "macro_name": "Frame",
     "macro_subname": "",
-    "title": "",
-    "main_tex_name": "../talk.tex"
+    "title": "{{-cookiecutter.macro_subname-}}",
+    "main_tex_name": "{{-cookiecutter.directory_name.strip('/').split('/').__len__()*'../'-}}talk.tex"
 }
